@@ -79,6 +79,7 @@ const Login = () => {
   return (
     <Box sx={{py: 4,width: "100%",display: "flex",px: { xs: 5, sm: 0 }, flexDirection: "column",alignItems: "center",}}>
       <Paper elevation={3}sx={{width: "100%",maxWidth: 600,p: { xs: 2, sm: 3 },borderRadius: 2,}}>
+     <Typography variant="h5" mb={1} sx={{textAlign:"center",fontWeight:"600"}}>Register</Typography>
         <Box component="form" onSubmit={handleSubmit} sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
           <FormControl fullWidth>
             <InputLabel>City</InputLabel>
